@@ -1,2 +1,2 @@
-# fma-warrior-archetype-quiz
-Fun personality quiz designed for Filipino Martial Arts practitioners of all backgrounds. Each archetype reflects a unique blend of mindset, movement, and combat strategy found across FMA.
+# FMA Warrior Archetype Quiz
+This repository hosts the HTML for the "Discover Your FMA Warrior Archetype" quiz, created for TrainPekiti.com, a Pekiti Tirsia Kali training in the DC/MD/VA area.
