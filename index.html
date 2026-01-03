@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discover Your FMA Warrior Archetype</title>
+  <meta name="description" content="Discover your FMA Warrior Archetype in this fun personality quiz, brought to you by TrainPekiti.com a Pekiti Tirsia Kali training serving the DC/MD/VA area.">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b0b0f;
+      color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .quiz-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #14141c;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      border: 1px solid #272738;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #ccccdd;
+      margin-bottom: 20px;
+    }
+    .question {
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #252535;
+    }
+    .question h3 {
+      margin: 0 0 8px 0;
+      font-size: 1.02rem;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 6px;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+    .options input[type="radio"] {
+      margin-right: 8px;
+      accent-color: #f39c12;
+    }
+    button {
+      background: linear-gradient(135deg, #f39c12, #e67e22);
+      border: none;
+      color: #111;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    button:hover {
+      filter: brightness(1.05);
+    }
+    .result {
+      margin-top: 24px;
+      padding: 16px 18px;
+      border-radius: 10px;
+      background: #191925;
+      border: 1px solid #2c2c3c;
+    }
+    .result h2 {
+      margin-top: 0;
+      margin-bottom: 6px;
+    }
+    .archetype-name {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #f39c12;
+    }
+    .small-print {
+      font-size: 0.8rem;
+      color: #9090a5;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div style="
+    text-align:center; 
+    margin-bottom:20px; 
+    padding:12px 0; 
+    background:#1d1d27; 
+    border-radius:8px;
+    border:1px solid #2c2c3c;
+  ">
+    <span style="font-size:0.95rem; color:#f39c12; font-weight:600;">
+      This quiz is brought to you by
+    </span><br>
+    <span style="font-size:1.05rem; color:#ffffff; font-weight:700;">
+      Pekiti Tirsia Kali DC / MD / VA
+    </span>
+  </div>
+
+  <div class="quiz-container">
+    <h1>Discover Your FMA Warrior Archetype</h1>
+    <div class="subtitle">
+      Whatever FMA system you train, this quiz will help you discover your natural warrior identity.
+    </div>
+
+    <form id="fmaQuiz">
+
+      <!-- QUESTIONS (unchanged from previous version) -->
+      <!-- Q1 -->
+      <div class="question">
+        <h3>1. When a sparring round begins, what’s your instinct?</h3>
+        <div class="options">
+          <label><input type="radio" name="q1" value="ALON"> Flow with their movement and adjust as needed.</label>
+          <label><input type="radio" name="q1" value="APOY"> Turn up the energy and overwhelm with intensity.</label>
+          <label><input type="radio" name="q1" value="AGILA"> Watch, wait, and strike when the timing is perfect.</label>
+          <label><input type="radio" name="q1" value="TIGRE"> Apply pressure and take space immediately.</label>
+          <label><input type="radio" name="q1" value="SAWA"> Set subtle traps and lure them into mistakes.</label>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="question">
+        <h3>2. Which weapon feels most natural to you?</h3>
+        <div class="options">
+          <label><input type="radio" name="q2" value="SAWA"> Flexible tools or anything that entangles.</label>
+          <label><input type="radio" name="q2" value="TIGRE"> Heavy stick or bolo for powerful hits.</label>
+          <label><input type="radio" name="q2" value="ALON"> Double sticks for rhythm and flow.</label>
+          <label><input type="radio" name="q2" value="AGILA"> Short blade for precision and timing.</label>
+          <label><input type="radio" name="q2" value="APOY"> Long blade for dramatic, high‑energy movement.</label>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="question">
+        <h3>3. What motivates you most in training?</h3>
+        <div class="options">
+          <label><input type="radio" name="q3" value="AGILA"> Understanding deeper mechanics and strategy.</label>
+          <label><input type="radio" name="q3" value="ALON"> Creativity, movement, and expression.</label>
+          <label><input type="radio" name="q3" value="TIGRE"> Dominating challenges head‑on.</label>
+          <label><input type="radio" name="q3" value="SAWA"> Outsmarting opponents with subtlety.</label>
+          <label><input type="radio" name="q3" value="APOY"> Pushing your limits with passion and intensity.</label>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="question">
+        <h3>4. How do you respond under pressure?</h3>
+        <div class="options">
+          <label><input type="radio" name="q4" value="AGILA"> Stay calm, analyze, and choose the right moment.</label>
+          <label><input type="radio" name="q4" value="ALON"> Adapt and redirect whatever comes.</label>
+          <label><input type="radio" name="q4" value="TIGRE"> Attack the problem directly.</label>
+          <label><input type="radio" name="q4" value="APOY"> Turn up your energy and fight through it.</label>
+          <label><input type="radio" name="q4" value="SAWA"> Slow down, plan, and control the situation.</label>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="question">
+        <h3>5. What kind of training partner do you enjoy most?</h3>
+        <div class="options">
+          <label><input type="radio" name="q5" value="ALON"> Someone who flows and adapts.</label>
+          <label><input type="radio" name="q5" value="AGILA"> Someone who thinks deeply and analyzes.</label>
+          <label><input type="radio" name="q5" value="APOY"> Someone who pushes intensity and energy.</label>
+          <label><input type="radio" name="q5" value="TIGRE"> Someone who fights hard and honestly.</label>
+          <label><input type="radio" name="q5" value="SAWA"> Someone who plays mind games and sets traps.</label>
+        </div>
+      </div>
+
+      <!-- Q6 -->
+      <div class="question">
+        <h3>6. In a group setting, you naturally become the…</h3>
+        <div class="options">
+          <label><input type="radio" name="q6" value="SAWA"> Quiet planner who sees the long game.</label>
+          <label><input type="radio" name="q6" value="APOY"> High‑energy motivator.</label>
+          <label><input type="radio" name="q6" value="TIGRE"> Enforcer who keeps things honest.</label>
+          <label><input type="radio" name="q6" value="AGILA"> Strategist who organizes and guides.</label>
+          <label><input type="radio" name="q6" value="ALON"> Connector who keeps the flow smooth.</label>
+        </div>
+      </div>
+
+      <!-- Q7 -->
+      <div class="question">
+        <h3>7. What pace feels best for your training?</h3>
+        <div class="options">
+          <label><input type="radio" name="q7" value="ALON"> Smooth, continuous, and rhythmic.</label>
+          <label><input type="radio" name="q7" value="TIGRE"> Fast and aggressive.</label>
+          <label><input type="radio" name="q7" value="SAWA"> Controlled and deliberate.</label>
+          <label><input type="radio" name="q7" value="AGILA"> Slow and precise.</label>
+          <label><input type="radio" name="q7" value="APOY"> Explosive and high‑energy.</label>
+        </div>
+      </div>
+
+      <!-- Q8 -->
+      <div class="question">
+        <h3>8. What do you value most in combat?</h3>
+        <div class="options">
+          <label><input type="radio" name="q8" value="AGILA"> Timing.</label>
+          <label><input type="radio" name="q8" value="ALON"> Flow.</label>
+          <label><input type="radio" name="q8" value="TIGRE"> Power.</label>
+          <label><input type="radio" name="q8" value="SAWA"> Control.</label>
+          <label><input type="radio" name="q8" value="APOY"> Intensity.</label>
+        </div>
+      </div>
+
+      <!-- Q9 -->
+      <div class="question">
+        <h3>9. How do you win a difficult fight?</h3>
+        <div class="options">
+          <label><input type="radio" name="q9" value="ALON"> Outflow them.</label>
+          <label><input type="radio" name="q9" value="SAWA"> Outmaneuver them.</label>
+          <label><input type="radio" name="q9" value="TIGRE"> Overwhelm them.</label>
+          <label><input type="radio" name="q9" value="APOY"> Outwork them with relentless energy.</label>
+          <label><input type="radio" name="q9" value="AGILA"> Outsmart them.</label>
+        </div>
+      </div>
+
+      <!-- Q10 -->
+      <div class="question">
+        <h3>10. What is your greatest strength?</h3>
+        <div class="options">
+          <label><input type="radio" name="q10" value="ALON"> Creativity.</label>
+          <label><input type="radio" name="q10" value="SAWA"> Patience.</label>
+          <label><input type="radio" name="q10" value="TIGRE"> Courage.</label>
+          <label><input type="radio" name="q10" value="AGILA"> Intelligence.</label>
+          <label><input type="radio" name="q10" value="APOY"> Passion.</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="calculateResult()">See My Result</button>
+    </form>
+
+    <div id="result" class="result" style="display:none;"></div>
+
+    <div class="small-print">
+      This quiz is for fun and self-awareness. All archetypes have strengths.
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="
+    text-align:center; 
+    margin-top:30px; 
+    padding:20px 0; 
+    background:#14141c; 
+    border-top:1px solid #2c2c3c;
+  ">
+    <a href="https://trainpekiti.com" 
+       style="color:#f39c12; 
+              font-size:1rem; 
+              font-weight:600; 
+              text-decoration:none;">
+      Visit TrainPekiti.com — Pekiti Tirsia Kali Training in DC / MD / VA
+    </a>
+    <div style="margin-top:6px; font-size:0.85rem; color:#9090a5;">
+      Learn authentic Pekiti Tirsia Kali in the Washington DC, Maryland, and Northern Virginia region.
+    </div>
+  </div>
+
+  <script>
+    function calculateResult() {
+      const form = document.getElementById('fmaQuiz');
+      const resultDiv = document.getElementById('result');
+
+      const scores = {
+        TIGRE: 0,
+        AGILA: 0,
+        ALON: 0,
+        APOY: 0,
+        SAWA: 0
+      };
+
+      for (let i = 1; i <= 10; i++) {
+        const selected = form.querySelector(`input[name="q${i}"]:checked`);
+        if (selected) scores[selected.value]++;
+      }
+
+      const answered = Object.values(scores).reduce((a, b) => a + b, 0);
+      if (answered < 10) {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = "<h2>Please answer all questions.</h2>";
+        return;
+      }
+
+      let top = null;
+      let max = -1;
+      for (const [type, score] of Object.entries(scores)) {
+        if (score > max) {
+          max = score;
+          top = type;
+        }
+      }
+
+      const descriptions = {
+        TIGRE: {
+          name: "Mandirigmang Tigre — The Fierce Warrior",
+          desc: "Direct, explosive, fearless. You dominate through pressure and decisive action."
+        },
+        AGILA: {
+          name: "Mandirigmang Agila — The Strategic Warrior",
+          desc: "Sharp, observant, calculating. You win through timing, angles, and precision."
+        },
+        ALON: {
+          name: "Mandirigmang Alon — The Flow Warrior",
+          desc: "Adaptive, creative, fluid. You move with rhythm and redirect force effortlessly."
+        },
+        APOY: {
+          name: "Mandirigmang Apoy — The Fire Warrior",
+          desc: "Intense, passionate, relentless. You push the pace and overwhelm with energy."
+        },
+        SAWA: {
+          name: "Mandirigmang Sawa — The Constrictor Warrior",
+          desc: "Patient, deceptive, controlled. You trap, bait, and dismantle opponents quietly."
+        }
+      };
+
+      const r = descriptions[top];
+
+      resultDiv.style.display = 'block';
+      resultDiv.innerHTML = `
+        <h2 class="archetype-name">${r.name}</h2>
+        <p>${r.desc}</p>
+
+        <h3 style="margin-top:20px; color:#f39c12;">The Other Warrior Archetypes</h3>
+        <ul style="list-style:none; padding-left:0; line-height:1.5;">
+          ${Object.entries(descriptions)
+            .filter(([key]) => key !== top)
+            .map(([key, info]) => `
+              <li style="margin-bottom:10px;">
+                <strong style="color:#e0e0e0;">${info.name}</strong><br>
+                <span style="color:#bdbdbd; font-size:0.9rem;">${info.desc}</span>
+              </li>
+            `).join('')}
+        </ul>
+      `;
+    }
+  </script>
+
+</body>
+</html>
